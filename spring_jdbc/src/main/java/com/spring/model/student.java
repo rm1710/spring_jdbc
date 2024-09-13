@@ -22,6 +22,10 @@ public class student {
 	public void setNumber(String string) {
 		this.number = string;
 	}
+	@Override
+	public String toString() {
+		return "student [id=" + id + ", name=" + name + ", number=" + number + "]";
+	}
 	
 	
 	
